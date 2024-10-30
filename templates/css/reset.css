@@ -1,0 +1,94 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+*/
+@CHARSET "UTF-8"; 
+
+html, body, div, span, object, iframe, applet, acronym, big, a,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, center,
+embed, output, ruby, tt, u,
+abbr, address, cite, code, s, strike,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+[hidden]{display:none;}
+nav ul{list-style:none;}
+blockquote,q{quotes:none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+abbr[title], acronym[title], dfn[title]	 {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table{border-collapse:collapse;border-spacing:0;}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input,select{vertical-align:middle;}
+
+/*my addons*/
+html,body{height:100%;}
+body{line-height:140%;font:12px helvetica,arial,sans-serif;color:#222222;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+h1{font-size:200%;}
+h2{font-size:160%;}
+h3{font-size:130%;}
+h4{font-size:120%;}
+h5{font-size:110%;}
+h6{font-size:100%;}
+code,kbd,samp,pre,tt,var{font-family:monospace;}
+pre{white-space:pre;}
+i,cite,em,dfn{font-style:italic;}
+b,strong,caption,th,thead,dt,legend{font-weight:bold;}
+small{font-size:90%;}
+big{font-size:110%;}
+s,strike,del {text-decoration:line-through;}
+u,ins{text-decoration:underline;}
+sub{vertical-align:sub;}
+sup{vertical-align:super;}
+sub, sup {font-size:75%;}
+ul{display:block;list-style-type:none;}
+ol{display:block;list-style-type:decimal;}
+li{display:list-item;}
+form{overflow:auto;}
+textarea {
+	padding:0;
+	border:0;
+}
+
+input[type=submit] {
+	cursor:pointer;
+}

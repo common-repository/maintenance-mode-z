@@ -1,0 +1,44 @@
+.sort {
+	cursor:move;
+	margin-right:10px;
+}
+
+.custom_upload_image_button {
+	margin-top:10px;
+}
+
+#settings-tabs input[type='text'] {
+	width:400px;
+	padding:5px;
+	margin-right:10px;
+}
+
+#settings-tabs input[type='radio'], #settings-tabs input[type='checkbox'], #settings-tabs textarea {
+	margin-right:10px;
+	font-family:Consolas,monospace;
+}
+
+#settings-tabs .textarea_raw {
+	width:400px;
+	height:200px;
+}
+
+#wpcontent option {
+    padding: 5px 10px 5px 5px;
+}
+
+#wpcontent select {
+    margin-right:10px;
+}
+
+.slider-input {
+	width:50px!important;
+}
+
+.repeatable-remove {
+	margin-left:10px;
+}
+
+td > .ui-slider-horizontal {
+	width:400px;
+}

@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+body {
+	background:url(../images/brown-back.png);
+}
+
+#wrapper {
+	width:800px;
+	margin:0px auto 0;
+	padding-top:150px;
+	overflow:hidden;
+}
+
+#left {
+	float:left;
+	width:320px;
+	padding:35px;
+}
+
+#left img {
+	float:right;
+}
+
+#right {
+	float:right;
+	width:320px;
+	padding:35px;
+	color:#6d5f3d;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+#right p {
+	text-align:justify;
+	margin-bottom:20px;
+}
+
+#logo {
+	overflow:hidden;
+}
+
+#socials {
+	margin:20px auto 0;
+	width:800px;
+	overflow:hidden;
+	text-align:center;
+}
+
+#socials img {
+	margin:0 20px;
+}
+
+h1, h2, h3 {
+	color:#6d5f3d;
+	margin-bottom:30px;
+}
+
+#slider {
+	margin-bottom:80px;
+}
